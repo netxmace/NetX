@@ -372,6 +372,10 @@
     }
     .about-section .content-column .inner-column .text {
         max-width: 100%;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 4d86277ad9481da3a37c5abb10d988c8a194f644
     }
     .feature-section .feature-tabs .tab-btns {
         margin-right: 0px;
@@ -917,7 +921,11 @@
     .fluid-section-one .content-column .author-box .box-inner .image {
         position: relative;
         margin-bottom: 20px;
+<<<<<<< HEAD
     }
+=======
+           }
+>>>>>>> 4d86277ad9481da3a37c5abb10d988c8a194f644
     .moment-section:after {
         display: none;
     }
