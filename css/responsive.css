@@ -372,6 +372,7 @@
     }
     .about-section .content-column .inner-column .text {
         max-width: 100%;
+        
     }
     .feature-section .feature-tabs .tab-btns {
         margin-right: 0px;
@@ -917,7 +918,7 @@
     .fluid-section-one .content-column .author-box .box-inner .image {
         position: relative;
         margin-bottom: 20px;
-    }
+           }
     .moment-section:after {
         display: none;
     }
