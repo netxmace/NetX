@@ -70,7 +70,7 @@
         background-color: #f9f9f9;
     }
     .banner-section-two {
-        background-color: #1700a0;
+        background-color: #080033;
     }
     .services-carousel-section .outer-container {
         margin-left: 15px;
@@ -374,7 +374,7 @@
         max-width: 100%;
 <<<<<<< HEAD
 =======
-        
+
 >>>>>>> 4d86277ad9481da3a37c5abb10d988c8a194f644
     }
     .feature-section .feature-tabs .tab-btns {
@@ -626,10 +626,10 @@
         margin: 5px 11px;
     }
     .header-style-two .main-menu .navbar-header .navbar-toggler {
-        border-color: #eb2f5b;
+        border-color: #950740;
     }
     .header-style-two .main-menu .navbar-header .navbar-toggler .icon-bar {
-        background-color: #eb2f5b;
+        background-color: #950740;
     }
     .main-header.header-style-two .nav-outer {
         margin-top: -90px;
