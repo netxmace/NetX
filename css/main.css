@@ -3051,13 +3051,10 @@ img {
 
 .accordion-box .block .icon-outer .icon-minus {
     opacity: 0;
-    color: #ffffff;
-    font-weight: 400;
 }
 
 .accordion-box .block .acc-btn.active .icon-outer .icon-minus {
     opacity: 1;
-    color: #ffffff;
 }
 
 .accordion-box .block .acc-btn.active .icon-outer .icon-plus {
