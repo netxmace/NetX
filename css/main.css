@@ -1,4 +1,3 @@
-
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -48,9 +47,6 @@ font-family: 'Open Sans', sans-serif;*/
 @import url('animation.css');
 @import url('jquery.fancybox.min.css');
 @import url('jquery.mCustomScrollbar.min.css');
-
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -58,12 +54,12 @@ font-family: 'Open Sans', sans-serif;*/
     outline: none;
 }
 
-
-body{
+body {
     font-weight: 400;
     background: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 .bordered-layout .page-wrapper {
@@ -479,7 +475,7 @@ img {
     color: #f23e9d;
     font-style: italic;
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(to top,#f40b68 0%, #950740 100%);
+    background: linear-gradient(to top, #f40b68 0%, #950740 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1673,8 +1669,6 @@ img {
     position: relative;
     float: right;
 }
-
-
 
 
 /***
@@ -3617,7 +3611,6 @@ img {
 
 .default-form .theme-btn {}
 
-
 .main-footer {
     position: relative;
     margin-top: 0px;
@@ -3697,43 +3690,44 @@ img {
 
 .list ul {
     margin: 0;
-	padding: 0;
-	list-style-type: none;
-	width:230px;
-	height:42px;
+    padding: 0;
+    list-style-type: none;
+    width: 230px;
+    height: 42px;
     display: inline-block;
-
-
 }
 
 .list li {
-	display:inline-block;
+    display: inline-block;
     padding: 20px;
-    color:grey;
-    cursor:pointer;
+    color: grey;
+    cursor: pointer;
 }
 
-.list li :hover{
+.list li :hover {
     opacity: .9;
 }
 
-.fa-facebook, .fa-facebook-square {
+.fa-facebook,
+.fa-facebook-square {
     color: #3b5998
 }
 
 .fa.fa-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
-.fa-linkedin, .fa-linkedin-square {
+.fa-linkedin,
+.fa-linkedin-square {
     color: #007bb6
 }
 
-.fa-github, .fa-github-square {
+.fa-github,
+.fa-github-square {
     color: #1a1919;
 }
 
@@ -3742,9 +3736,10 @@ img {
     float: right;
     width: 200px;
     margin-left: 50px;
-    position:absolute;
-    left:-100px;
+    position: absolute;
+    left: -100px;
 }
+
 
 /* List Link */
 
@@ -3783,8 +3778,8 @@ img {
     font-family: 'FontAwesome';
 }
 
-/*Gallery Widget*/
 
+/*Gallery Widget*/
 
 .main-footer .footer-bottom {
     position: relative;
@@ -3830,8 +3825,6 @@ img {
 .main-footer .footer-bottom .social-column ul li a:hover {
     color: #4b35cb;
 }
-
-
 
 .banner-section-two {
     position: relative;
@@ -3880,7 +3873,7 @@ img {
     line-height: 1.2em;
     margin-bottom: 28px;
     opacity: 1;
-    font-family:'Bungee Shade';
+    font-family: 'Bungee Shade';
 }
 
 .banner-section-two .content h1 span {
@@ -3904,8 +3897,8 @@ img {
     font-size: 20px;
     line-height: 2em;
     margin-bottom: 35px;
-    font-weight:bold;
-    font-style:italic;
+    font-weight: bold;
+    font-style: italic;
     font-family: 'Playfair Display', serif;
 }
 
