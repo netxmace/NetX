@@ -4110,7 +4110,7 @@ img {
 }
 
 .services-block-three .inner-box:hover .icon-box,
-.services-block-three .inner-box:hover h5 a,
+.services-block-three .inner-box:hover h5,
 .services-block-three .inner-box:hover .text {
     color: #ffffff;
 }
@@ -4749,7 +4749,7 @@ img {
     width: 108px;
     height: 108px;
     margin: 0 auto;
-    padding: 6px;
+
     overflow: hidden;
     border-radius: 50%;
     background-color: #ffffff;
@@ -4757,15 +4757,14 @@ img {
     box-shadow: 2px 5px 15px 4px rgba(249, 98, 105, 0.10);
 }
 
-.testimonial-block-two .inner-box .image-outer .image img {
-    border-radius: 50%;
-}
-
 .testimonial-block-two .inner-box .text {
     position: relative;
     margin-top: 35px;
-    color: #555555;
+    color: #000;
     font-size: 16px;
+    font-style: italic;
+    text-align:center;
+    font-family: 'Orpheus', serif;
     line-height: 1.9em;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -4795,7 +4794,7 @@ img {
 .testimonial-block-two .inner-box .designation {
     position: relative;
     font-size: 16px;
-    color: #999999;
+    color: #ff33cc;
     margin-top: 5px;
 }
 
