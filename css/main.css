@@ -5049,6 +5049,10 @@ img {
     background: url(../images/background/pattern-2.png) center top no-repeat;
 }
 
+.about-section .image-column .inner-column .image-3{
+    box-shadow: 10px 10px 5px #bfbfbf;
+}
+
 .about-section .image-column .image-2 {
     position: absolute;
     right: 30px;
@@ -5066,13 +5070,28 @@ img {
     margin-bottom: 10px;
 }
 
+.about-section .content-column .sec-title h3{
+  font-family:'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  font-size: 80px;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
 .about-section .content-column .inner-column .bold-text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-section .content-column .inner-column .bold-text1 {
     position: relative;
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.3em;
     margin-bottom: 18px;
+    font-family: 'Orpheus', serif;
+    font-style:italic;
+    text-align: justify;
 }
 
 .about-section .content-column .inner-column .text {
@@ -5428,6 +5447,7 @@ img {
 .feature-section .feature-tabs .tabs-content .tab .image img {
     width: 100%;
     display: block;
+    padding-top:50px;
 }
 
 .error-section {
