@@ -905,6 +905,10 @@
     .devoted-section .devoted-tabs .tab-btns .tab-btn {
         width: 100%;
     }
+    .about-section .content-column .sec-title h3{
+      font-size: 60px;
+      font-weight: 400;
+    }
     .about-section .image-column .image-2 {
         position: relative;
         top: 0px;
