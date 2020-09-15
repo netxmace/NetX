@@ -35,7 +35,7 @@
         <div class="preloader"></div>
 
         <!-- Main Header-->
-        <header class="main-header">
+        <header class="main-header header-style-one">
 
             <!--Header-Upper-->
             <div class="header-upper">
@@ -53,10 +53,10 @@
                             <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-md">
                                 <div class="navbar-header">
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
+                                    <button class="navbar-toggler" onclick="myFunction(this)" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="icon-bar icon1"></span>
+                                        <span class="icon-bar icon2"></span>
+                                        <span class="icon-bar icon3"></span>
                                     </button>
                                 </div>
 
@@ -91,10 +91,10 @@
                     <div class="right-col pull-right">
                         <!-- Main Menu -->
                         <nav class="main-menu navbar-expand-md">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
+                            <button class="navbar-toggler" onclick="myFunction(this)" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar icon1"></span>
+                                <span class="icon-bar icon2"></span>
+                                <span class="icon-bar icon3"></span>
                             </button>
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
@@ -344,9 +344,10 @@
                                                     </li>
 
                                                 </ul>
-
+                                                <br>
+                                                <div class="centered">
                                                 <a href="team.html" class="theme-btn btn-style-three">Our Team</a>
-
+                                              </div>
                                             </div>
                                         </div>
 
@@ -458,8 +459,8 @@
                             <!--Tab Btns-->
                             <ul class="tab-btns tab-buttons clearfix">
                                 <li data-tab="#feature-ideas" class="tab-btn active-btn">Triskelion<span>NetX brings you a one of a kind event with Triskelion taking you behind the scenes to learn how to organise an event.</span></li>
-                                <li data-tab="#feature-brand" class="tab-btn">Learn to code in C<span>A class on C Programming was taken aimed at<br>creating a programming base for the attendees</span></li>
-                                <li data-tab="#feature-expert" class="tab-btn">Hackathon<span>A hackathon was conducted for the members<br> aimed at setting a base in the field of<br>web development and design. </span></li>
+                                <li data-tab="#feature-brand" class="tab-btn">Learn to code in C<span>A class on C Programming was taken aimed at creating a programming base for the attendees</span></li>
+                                <li data-tab="#feature-expert" class="tab-btn">Hackathon<span>A hackathon was conducted for the members aimed at setting a base in the field of web development and design. </span></li>
                             </ul>
                         </div>
 
@@ -497,7 +498,9 @@
 
                             </div>
                         </div>
+                        <div class="flex-parent">
                         <a href="event.html#" class="theme-btn btn-style-three">Explore our Events <span></a>
+                        </div>
                         </div>
                         </div>
                     </div>
@@ -688,6 +691,11 @@
     <script src="js/wow.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+</script>
 </body>
 
 </html>

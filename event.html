@@ -54,10 +54,10 @@
                             <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-md">
                                 <div class="navbar-header">
-                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                             <span class="icon-bar"></span>
-                                             <span class="icon-bar"></span>
-                                             <span class="icon-bar"></span>
+                                  <button class="navbar-toggler" onclick="myFunction(this)" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                             <span class="icon-bar icon1"></span>
+                                             <span class="icon-bar icon2"></span>
+                                             <span class="icon-bar icon3"></span>
                                  </button>
                                 </div>
 
@@ -94,10 +94,10 @@
                     <div class="right-col pull-right">
                         <!-- Main Menu -->
                         <nav class="main-menu navbar-expand-md">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                            <button class="navbar-toggler" onclick="myFunction(this)" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar icon1"></span>
+                            <span class="icon-bar icon2"></span>
+                            <span class="icon-bar icon3"></span>
                         </button>
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
@@ -124,7 +124,7 @@
         <section class="page-title" style="background-image:url(images/background/7.png)">
             <div class="auto-container">
                 <div class="content">
-                    <h1>EVENTS</h1>
+                    <h1>Events</h1>
                     <ul class="page-breadcrumb">
                         <li><a href="index.html">Home</a></li>
                         <li>Events</li>
@@ -309,4 +309,9 @@
     <script src="js/wow.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
 </body>
