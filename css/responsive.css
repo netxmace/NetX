@@ -909,6 +909,12 @@
       font-size: 45px;
       font-weight: 400;
     }
+    .about-section .content-column .inner-column .bold-text {
+        font-size: 15px;
+    }
+    .about-section .content-column .inner-column .bold-text1 {
+        font-size: 18px;
+    }
     .about-section .image-column .image-2 {
         position: relative;
         top: 0px;
