@@ -617,16 +617,19 @@
     .header-style-two .main-menu .navbar-header .navbar-toggler .icon-bar {
         background:#950740;
     }
+
     .change .icon1{
       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
       transform: rotate(-45deg) translate(-9px, 6px);
+      transition:1.5s;
     }
     .change .icon2{
-      opacity: 0.5;
+      opacity: 0;
     }
     .change .icon3{
       -webkit-transform: rotate(45deg) translate(-9px, -6px);
       transform: rotate(45deg) translate(-9px, -6px);
+      transition: 1.5s;
     }
     .main-header.header-style-two .nav-outer {
         margin-top: -90px;
