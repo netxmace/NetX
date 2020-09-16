@@ -375,6 +375,9 @@
     .about-section .content-column .inner-column .text {
         max-width: 100%;
     }
+    .about-section .content-column .inner-column .bold-text1 {
+        font-size: 18px;
+    }
     .feature-section .feature-tabs .tab-btns {
         margin-right: 0px;
     }
