@@ -5082,9 +5082,9 @@ img {
 }
 
 .about-section .content-column .inner-column .bold-text {
-    font-size: 21px;
+    font-size: 17px;
     text-align: justify;
-    font-family: 'Times New Roman';
+    font-family: 'Playfair Display', serif;;
 }
 
 .about-section .content-column .inner-column .bold-text1 {
