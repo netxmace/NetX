@@ -3651,7 +3651,7 @@ img {
     position: relative;
     z-index: 1;
     margin-bottom: 40px;
-    float: right;
+    float: left;
 }
 
 .main-footer .widgets-section {
@@ -3665,12 +3665,14 @@ img {
     color: #222222;
     line-height: 1.2em;
     margin-bottom: 25px;
+    margin-top:100px;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px rgb(122, 122, 122);
 }
 
 .main-footer .logo-widget {
     position: relative;
+    padding-right: 20px;
 }
 
 .main-footer .logo-widget .logo {
