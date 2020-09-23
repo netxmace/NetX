@@ -369,6 +369,9 @@
     .about-section .image-column .image-2 {
         right: 0px;
     }
+    .about-section .image-column .image-3 img {
+      width:98%;
+    }
     .about-section .content-column {
         margin-top: 90px;
     }
@@ -929,7 +932,7 @@
     }
 
     .about-section .image-column .image-3 img {
-      width:80%;
+      width:95%;
     }
 
     .about-section .content-column .inner-column .author-box .box-inner .image,
