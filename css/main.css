@@ -521,7 +521,7 @@ img {
 
 .list-style-one li {
     position: relative;
-    color: #000;
+    color: #e6f2ff;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 14px;
@@ -532,10 +532,13 @@ img {
     position: absolute;
     left: 0px;
     top: 0px;
-    color: #000;
+    color: #b3d9ff;
     font-size: 14px;
 }
 
+.list-style-one li a{
+    color:#ff4d4d;
+  }
 
 /* List Style Two */
 
@@ -3613,8 +3616,8 @@ img {
 .main-footer {
     position: relative;
     margin-top: 0px;
-    padding: 95px 0px 0px;
-    background-color: #f4f4f4;
+    padding: 60px 0px 0px;
+    background-color: #000033;
 }
 
 .main-footer.style-three {
@@ -3625,10 +3628,9 @@ img {
     position: absolute;
     content: '';
     left: 0px;
-    top: -390px;
+    top: -100px;
     width: 100%;
-    height: 390px;
-    background: url(../images/background/4.png) no-repeat;
+    height: 100px;
 }
 
 .main-footer.style-two {
@@ -3641,10 +3643,8 @@ img {
     left: -2000px;
     top: -100px;
     right: -2000px;
-    height: 490px;
+    height: 200px;
     width: auto;
-    transform: rotate(5deg);
-    background-color: #f3f4fa;
 }
 
 .main-footer .footer-widget {
@@ -3652,6 +3652,7 @@ img {
     z-index: 1;
     margin-bottom: 40px;
     float: left;
+    color:#e1dcdc;
 }
 
 .main-footer .widgets-section {
@@ -3662,7 +3663,7 @@ img {
 .main-footer .footer-widget h4 {
     position: relative;
     font-weight: 600;
-    color: #222222;
+    color: #e1dcdc;
     line-height: 1.2em;
     margin-bottom: 25px;
     margin-top:100px;
@@ -3682,7 +3683,7 @@ img {
 
 .main-footer .logo-widget .text {
     position: relative;
-    color: #222222;
+    color: #e6f2ff;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8em;
@@ -3711,25 +3712,21 @@ img {
 
 .fa-facebook,
 .fa-facebook-square {
-    color: #3b5998
+    color: #b3d9ff;
 }
 
 .fa.fa-instagram {
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: #b3d9ff;
 }
 
 .fa-linkedin,
 .fa-linkedin-square {
-    color: #007bb6
+    color: #b3d9ff;
 }
 
 .fa-github,
 .fa-github-square {
-    color: #1a1919;
+    color: #b3d9ff;
 }
 
 
@@ -3746,7 +3743,7 @@ img {
 
 .list-link li a {
     position: relative;
-    color: #666666;
+    color: #b3d9ff;
     font-size: 20px;
     padding-left: 15px;
     -webkit-transition: all 300ms ease;
@@ -3757,9 +3754,9 @@ img {
 }
 
 .list-link li a:hover {
-    color: #4b35cb;
+    color: #ff4d4d;
     margin-left: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .list-link li a:before {
